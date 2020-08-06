@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">androidlayout</string>
+    <string name="pelatihan_android_java">Pelatihan Android Java</string>
+    <string name="agustus_2020">Agustus 2020</string>
+    <string name="judul_aplikasi">Berkahpedia</string>
+    <string name="deskripsi">Aplikasi Marketplace islami</string>
+    <string name="pembuat_aplikasi">Alfansyah</string>
+</resources>
