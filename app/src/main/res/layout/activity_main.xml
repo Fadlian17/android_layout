@@ -6,24 +6,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+
   <include
-      android:id="@+id/custom_layout"
+      android:id="@+id/custom_header"
       layout="@layout/main_header"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"/>
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"/>
 
 
   <include
-      android:id="@+id/custom_layout"
+      android:id="@+id/custom_content"
       layout="@layout/main_content"
-      android:layout_width="398dp"
-      android:layout_height="300dp"
-      android:layout_marginStart="8dp"
-      app:layout_constraintStart_toStartOf="parent"
-      tools:layout_editor_absoluteY="245dp" />
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+     />
 
   <include
-      android:id="@+id/custom_layout"
+      android:id="@+id/custom_footer"
       layout="@layout/main_footer"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content" />
