@@ -13,7 +13,6 @@
       layout="@layout/main_header"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="10dp"
       android:layout_marginBottom="10dp"/>
 
 
@@ -22,14 +21,12 @@
       layout="@layout/main_content"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:layout_marginTop="10dp"
-      android:layout_marginBottom="10dp"
      />
 
   <include
       android:id="@+id/custom_footer"
       layout="@layout/main_footer"
-      android:layout_width="wrap_content"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content" />
 
   </androidx.constraintlayout.widget.ConstraintLayout>
