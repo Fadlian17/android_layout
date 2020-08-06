@@ -2,4 +2,6 @@
 <resources>
     <dimen name="percent">16sp</dimen>
     <dimen name="margin_start">10dp</dimen>
+    <dimen name="button_header">60dp</dimen>
+    <dimen name="button_header_2">40dp</dimen>
 </resources>
